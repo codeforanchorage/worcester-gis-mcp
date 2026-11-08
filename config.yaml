@@ -34,7 +34,7 @@ plugins:
     enabled: true # Set to true to use
     portal_url: "https://opendata.worcesterma.gov"
     city_name: "City of Worcester"
-    timeout: 120
+    timeout: 20
     geocoder_region: "Worcester, MA" # biases address geocoding to Worcester
     # token: "${ARCGIS_TOKEN}"  # Optional: Bearer token for private items
 
@@ -43,7 +43,7 @@ aws:
   region: "us-west-2" # AWS region for Lambda
   lambda_name: "worcester-gis-mcp" # Lambda function name
   lambda_memory: 512 # Lambda memory in MB (128-10240)
-  lambda_timeout: 120 # Lambda timeout in seconds (max 900)
+  lambda_timeout: 28 # Lambda timeout in seconds (max 900)
 
 # Logging configuration
 logging:

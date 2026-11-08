@@ -6,7 +6,7 @@ config_file = "config.yaml"
 # memory plus a bounded 32-entry polygon cache. Also buys more Lambda
 # CPU, which accelerates the pure-Python point-in-polygon work.
 lambda_memory   = 1024
-lambda_timeout  = 120
+lambda_timeout  = 28
 api_quota_limit = 3000
 api_rate_limit  = 5
 api_burst_limit = 10
